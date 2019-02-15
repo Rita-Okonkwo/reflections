@@ -1,23 +1,37 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	It becomes a git repository and I am able to make changes to it on VcS git.
+	It becomes a git repository and I am able to make changes to
+	it on VcS git.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The staging area is like a buffer between the working directory and the repository. It stays in their middle. Its the place where the files to be commited are kept before being transferred to the repository. Files are taken to the staging area using the command "git add"
+	The staging area is like a buffer between the working directory
+    and the repository. It stays in their middle. Its the place where
+    the files to be commited are kept before being transferred to the
+    repository. Files are taken to the staging area using the command
+    "git add"
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	I can do that by adding all the files from the working directory that I want to commit to the staging area and comparing it to the recent commit in the repository to make sure that that is the commit we want to make.
+	I can do that by adding all the files from the working directory
+	that I want to commit to the staging area and comparing it to
+	the recent commit in the repository to make sure that that is
+	the commit we want to make.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	Branches are helpful when I want to try an entirely new feature of my application, Like an igbo version for the english version. That way I'd be able to commit to the igbo version without interfering with that of the ebglish version.
+	Branches are helpful when I want to try an entirely new feature
+	of my application, Like an igbo version for the english version. 
+	That way I'd be able to commit to the igbo version without interfering
+	with that of the ebglish version.
 
 How do the diagrams help you visualize the branch structure?
+
+	They help me know the difference between the master branch and
+    other branches and also to know unreachable commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
